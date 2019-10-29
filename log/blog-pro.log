@@ -1,0 +1,5 @@
+2019-10-05 21:31:06.705  INFO 3016 --- [restartedMain] com.hanj.blog.BlogApplication            : Starting BlogApplication on DESKTOP-RTTQU8O with PID 3016 (E:\jetbfloder\blog\target\classes started by Hanj in E:\jetbfloder\blog)
+2019-10-05 21:31:06.707  INFO 3016 --- [restartedMain] com.hanj.blog.BlogApplication            : The following profiles are active: pro
+2019-10-05 21:31:08.518  WARN 3016 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-10-05 21:31:09.456  WARN 3016 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-05 21:31:09.678  INFO 3016 --- [restartedMain] com.hanj.blog.BlogApplication            : Started BlogApplication in 3.749 seconds (JVM running for 5.187)

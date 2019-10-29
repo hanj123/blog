@@ -1,0 +1,151 @@
+2019-10-15 12:25:47.355  INFO 7528 --- [main] com.hanj.blog.BlogApplication            : Starting BlogApplication on DESKTOP-RTTQU8O with PID 7528 (E:\jetbfloder\blog\target\classes started by Hanj in E:\jetbfloder\blog)
+2019-10-15 12:25:47.364 DEBUG 7528 --- [main] com.hanj.blog.BlogApplication            : Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-15 12:25:47.365  INFO 7528 --- [main] com.hanj.blog.BlogApplication            : The following profiles are active: dev
+2019-10-15 12:25:47.508  INFO 7528 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-15 12:25:47.508  INFO 7528 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-15 12:25:48.852  INFO 7528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-15 12:25:49.018  INFO 7528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148ms. Found 4 repository interfaces.
+2019-10-15 12:25:49.652  INFO 7528 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1058463] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 12:25:51.204  INFO 7528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-15 12:25:51.243  INFO 7528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 12:25:51.243  INFO 7528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-15 12:25:51.254  INFO 7528 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-10-15 12:25:51.255  INFO 7528 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-10-15 12:25:51.255  INFO 7528 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-10-15 12:25:51.444  INFO 7528 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-10-15 12:25:51.631  INFO 7528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-15 12:25:51.631  INFO 7528 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4122 ms
+2019-10-15 12:25:51.886  INFO 7528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-15 12:25:51.888  WARN 7528 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-10-15 12:25:52.073  INFO 7528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-15 12:25:52.283  INFO 7528 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-15 12:25:52.384  INFO 7528 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-15 12:25:52.386  INFO 7528 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-15 12:25:52.633  INFO 7528 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-15 12:25:53.436  INFO 7528 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-15 12:25:54.938  INFO 7528 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 12:25:55.065  INFO 7528 --- [main] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-15 12:25:56.262  WARN 7528 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-15 12:25:56.995  INFO 7528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-15 12:25:56.999  INFO 7528 --- [main] com.hanj.blog.BlogApplication            : Started BlogApplication in 10.889 seconds (JVM running for 17.708)
+2019-10-15 12:26:47.094  INFO 7528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-15 12:26:47.094  INFO 7528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-15 12:26:47.126  INFO 7528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2019-10-15 12:26:47.179  INFO 7528 --- [http-nio-8080-exec-1] com.hanj.blog.aspect.LogAspect           : RequestLog:ReqeustLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='class com.hanj.blog.web.indexController.index', args=[]}
+2019-10-15 12:26:47.202  INFO 7528 --- [http-nio-8080-exec-1] com.hanj.blog.aspect.LogAspect           : return Result:index
+2019-10-15 12:26:56.647  INFO 7528 --- [http-nio-8080-exec-7] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-15 12:35:51.130  INFO 8720 --- [main] com.hanj.blog.BlogApplication            : Starting BlogApplication on DESKTOP-RTTQU8O with PID 8720 (E:\jetbfloder\blog\target\classes started by Hanj in E:\jetbfloder\blog)
+2019-10-15 12:35:51.133 DEBUG 8720 --- [main] com.hanj.blog.BlogApplication            : Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-15 12:35:51.133  INFO 8720 --- [main] com.hanj.blog.BlogApplication            : The following profiles are active: dev
+2019-10-15 12:35:51.254  INFO 8720 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-15 12:35:51.254  INFO 8720 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-15 12:35:52.271  INFO 8720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-15 12:35:52.439  INFO 8720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152ms. Found 4 repository interfaces.
+2019-10-15 12:35:53.150  INFO 8720 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ecb6de35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 12:35:54.264  INFO 8720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-15 12:35:54.301  INFO 8720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 12:35:54.302  INFO 8720 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-15 12:35:54.312  INFO 8720 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-10-15 12:35:54.312  INFO 8720 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-10-15 12:35:54.313  INFO 8720 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-10-15 12:35:54.318  INFO 8720 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-10-15 12:35:54.498  INFO 8720 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-15 12:35:54.499  INFO 8720 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3244 ms
+2019-10-15 12:35:54.767  INFO 8720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-15 12:35:54.769  WARN 8720 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-10-15 12:35:54.947  INFO 8720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-15 12:35:55.152  INFO 8720 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-15 12:35:55.248  INFO 8720 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-15 12:35:55.250  INFO 8720 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-15 12:35:55.487  INFO 8720 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-15 12:35:55.838  INFO 8720 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-15 12:35:57.338  INFO 8720 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 12:35:57.482  INFO 8720 --- [main] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-15 12:35:59.084  WARN 8720 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-15 12:35:59.862  INFO 8720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-15 12:35:59.867  INFO 8720 --- [main] com.hanj.blog.BlogApplication            : Started BlogApplication in 10.152 seconds (JVM running for 17.294)
+2019-10-15 12:36:53.425  INFO 8720 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-15 12:36:53.426  INFO 8720 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-15 12:36:53.444  INFO 8720 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2019-10-15 12:36:56.745  INFO 8720 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-15 12:41:46.846  WARN 8720 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m51s795ms511µs784ns).
+2019-10-15 12:44:36.730  INFO 7840 --- [main] com.hanj.blog.BlogApplication            : Starting BlogApplication on DESKTOP-RTTQU8O with PID 7840 (E:\jetbfloder\blog\target\classes started by Hanj in E:\jetbfloder\blog)
+2019-10-15 12:44:36.731 DEBUG 7840 --- [main] com.hanj.blog.BlogApplication            : Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-15 12:44:36.732  INFO 7840 --- [main] com.hanj.blog.BlogApplication            : The following profiles are active: dev
+2019-10-15 12:44:36.823  INFO 7840 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-15 12:44:36.924  INFO 7840 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-15 12:44:37.767  INFO 7840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-15 12:44:37.912  INFO 7840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 134ms. Found 4 repository interfaces.
+2019-10-15 12:44:38.515  INFO 7840 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$498ad5e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 12:44:39.404  INFO 7840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-15 12:44:39.434  INFO 7840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 12:44:39.435  INFO 7840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-15 12:44:39.443  INFO 7840 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-10-15 12:44:39.444  INFO 7840 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-10-15 12:44:39.444  INFO 7840 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-10-15 12:44:39.448  INFO 7840 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-10-15 12:44:39.603  INFO 7840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-15 12:44:39.604  INFO 7840 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2679 ms
+2019-10-15 12:44:39.843  INFO 7840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-15 12:44:39.845  WARN 7840 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-10-15 12:44:39.973  INFO 7840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-15 12:44:40.161  INFO 7840 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-15 12:44:40.246  INFO 7840 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-15 12:44:40.247  INFO 7840 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-15 12:44:40.417  INFO 7840 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-15 12:44:40.718  INFO 7840 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-15 12:44:41.951  INFO 7840 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 12:44:42.069  INFO 7840 --- [main] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-15 12:44:43.129  WARN 7840 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-15 12:44:43.829  INFO 7840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-15 12:44:43.833  INFO 7840 --- [main] com.hanj.blog.BlogApplication            : Started BlogApplication in 8.198 seconds (JVM running for 13.832)
+2019-10-15 12:45:07.901  INFO 7840 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-15 12:45:07.902  INFO 7840 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-15 12:45:07.920  INFO 7840 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2019-10-15 12:45:10.358  INFO 7840 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-15 17:51:19.466  WARN 7840 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h42m39s246ms324µs529ns).
+2019-10-15 18:44:27.462  INFO 7840 --- [http-nio-8080-exec-5] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-15 18:44:27.494  INFO 7840 --- [http-nio-8080-exec-5] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-10-15 19:35:40.925  INFO 3336 --- [main] com.hanj.blog.BlogApplication            : Starting BlogApplication on DESKTOP-RTTQU8O with PID 3336 (E:\jetbfloder\blog\target\classes started by Hanj in E:\jetbfloder\blog)
+2019-10-15 19:35:40.928 DEBUG 3336 --- [main] com.hanj.blog.BlogApplication            : Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-15 19:35:40.929  INFO 3336 --- [main] com.hanj.blog.BlogApplication            : The following profiles are active: dev
+2019-10-15 19:35:41.057  INFO 3336 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-15 19:35:41.057  INFO 3336 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-15 19:35:42.572  INFO 3336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-15 19:35:42.835  INFO 3336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 242ms. Found 4 repository interfaces.
+2019-10-15 19:35:43.669  INFO 3336 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9725c6ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 19:35:45.084  INFO 3336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-15 19:35:45.129  INFO 3336 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 19:35:45.129  INFO 3336 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-15 19:35:45.140  INFO 3336 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-10-15 19:35:45.141  INFO 3336 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-10-15 19:35:45.141  INFO 3336 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-10-15 19:35:45.250  INFO 3336 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-10-15 19:35:45.494  INFO 3336 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-15 19:35:45.494  INFO 3336 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4437 ms
+2019-10-15 19:35:45.780  INFO 3336 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-15 19:35:45.781  WARN 3336 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-10-15 19:35:45.993  INFO 3336 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-15 19:35:46.224  INFO 3336 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-15 19:35:46.357  INFO 3336 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-15 19:35:46.359  INFO 3336 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-15 19:35:46.674  INFO 3336 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-15 19:35:47.100  INFO 3336 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-15 19:35:49.052  INFO 3336 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 19:35:49.205  INFO 3336 --- [main] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-15 19:35:50.743  WARN 3336 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-15 19:35:51.660  INFO 3336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-15 19:35:51.667  INFO 3336 --- [main] com.hanj.blog.BlogApplication            : Started BlogApplication in 12.821 seconds (JVM running for 22.313)
+2019-10-15 19:35:52.265  INFO 3336 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-15 19:35:52.265  INFO 3336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-15 19:35:52.306  INFO 3336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 40 ms
+2019-10-15 19:35:56.562  INFO 3336 --- [http-nio-8080-exec-4] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-15 21:02:03.791  WARN 3336 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m36s51ms764µs509ns).
